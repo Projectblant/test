@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "ObitaemOstrov";
+    src: url(/font/ObitaemOstrov.ttf);
+}
+
+@font-face {
+    font-family: "HACKED";
+    src: url(/font/HackedCyr.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(/font/Montserrat-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url(/img/background.svg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0C0C0CB2;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    color: #DFDFDF;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "ObitaemOstrov";
+}
+
+header .nav {
+    top: 0;
+    left: 0;
+}
+
+header .nav a {
+    color: #DFDFDF;
+    text-decoration: none;
+    font-size: 19px;
+    margin-inline: 100px;
+}
+
+header .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E9E9E9;
+    font-size: 18px;
+    border: 2px solid #66FC6C;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+main .mission {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "HACKED";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 95%;
+    color: #E9E9E9;
+    
+}
+
+main .mission #green {
+    color: #66FC6C;
+}
+
+main .desc {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 95%;
+    color: #E9E9E9;
+    width: 500px;
+    display: flex;
+   
+}
+
+main .desc #green {
+    color: #45A254;
+}
+
+main .button_start {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+main .button_start .start {
+    width: 290px;
+    height: 60px;
+    background: #66FC6C;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 95%;
+    /* identical to box height, or 17px */
+
+    color: #181F1A;
+}
+main{
+        margin-left: 38px;
+        margin-top: 150px;
+
+}
+
+div.desc{
+    margin-top: 50px;
+    height: 100px;
+    width: 550px;
+    
+}
+.text{
+    display: flex;
+    height: 100px;
+    width: 550px;
+   
+}
+.maxtext{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 535px;
+
+}
+.soberi{
+    margin-right: 105px;
+}
+.svoyu{
+    margin-right: 20px;
+}
+.banani{
+    color:#45A254 ;
+}

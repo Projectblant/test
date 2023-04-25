@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.prem {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 50px;
+    margin-right: 10px;
+}
+
+.prem2 {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 50px;
+    margin-right: 10px;
+}
+
+.prem3 {
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 50px;
+}
