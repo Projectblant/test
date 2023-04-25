@@ -161,6 +161,7 @@ div.desc{
 }
 .wrapper {
     position: relative;
+    font-family: 'Montserrat';
     width: 440px;
     height: 540px;
     background: transparent;
